@@ -1,0 +1,173 @@
+*{
+  margin: 0;
+  padding: 0;
+  outline: 0;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    min-height: 100%;
+    
+}
+
+li{
+ list-style: none;   
+}
+
+.header-menu{
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    width: 100%;
+    height: 30px;
+    padding: 20px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    background-color: #724796;
+}
+
+.header-menu nav {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.lista-menu{
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+    text-align: center;
+}
+
+.lista-menu li>a{
+    color:#FFF;
+    font-size: 18px;
+    text-decoration: inherit;
+    padding:12px;
+    justify-content: center;
+}
+
+.principal{
+    height: 120vh;
+    display: flex;
+    flex-direction: row;
+    background-color: #EAEAEA;
+}
+
+.container {
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 75px;
+    max-width: 960px;
+    padding-right: 10px;
+    padding-left: 10pix;
+    width: 100%;
+}
+
+
+.subcontainer-principal{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.nome-completo{
+font-size:36px ;
+color: #ff4dbc;
+font-weight: 700;
+height: 45px;
+
+}
+
+.profissao{
+    color: #C6B5D5;
+    height: 60px;
+}
+
+
+.texto-sobre {
+    font-size: 20px;
+    line-height: 32px;
+    text-align: justify;
+    
+}
+
+.article-lista{
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.topico-principal{
+    font-size: 36px;
+    color: #ff4dbc;
+}
+
+.lista-item{
+    padding: 32px;
+}
+
+.tópico-principal {
+   font-size: 36px ; 
+   color: #ff4dbc;
+    
+  }
+  
+  .lista-item {
+    padding:  32 px ;
+  }
+  
+  .lista-item  ul  li{
+      margin-bottom: 32px;
+  }
+    
+
+
+
+.lista-titulo{
+    margin-bottom: 5px;
+    font-size: 22px;
+    color: #661e4b;
+    font-weight: 700;
+}
+
+.lista-local{
+    font-size: 18px;
+    color: #2F80ED;
+}
+.lista-descricao{
+    font-size: 18px;
+    margin-top: 5px;
+    line-height: 20px;
+    color: #828282;
+    font-weight: 300px;
+}
+
+
+.foto{
+    width: 150px;
+    height: 180px;
+}
+
+.rodape{
+    background-color: #724796;
+    height: 35vh;
+    display: flex;
+}
+
+.lista-rodape li{
+    color: #FFF;
+    font-weight: 700;
+    font-size: 18px;
+    margin-bottom: 16px;
+    align-items: center;
+}
+
+.estilo-icone{
+    font-size: 20px;
+    margin-right: 10px;
+}
